@@ -1,0 +1,54 @@
+body{
+    background: #030361;
+    background: -webkit-linear-gradient(to right, #acb9bd, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56b9d4, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.animate__animated {
+    width: 90%; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 85px; 
+}
+
+.bg-dark {
+    background-color: #111135 !important;
+}
+.bg-ligth { background: #000046;
+
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#about .col-sm-6 {
+    flex: 1;
+}
+
+h4 {
+    color: #ffffff; 
+    margin-bottom: 18px;
+}
+
+ul {
+    color: #ffffff; /* Color gris oscuro para la lista de beneficios */
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.gif-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #ffffff; /* Color gris más oscuro para el encabezado principal */
+    margin-bottom: 20px;
+}
+
+
